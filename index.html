@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Meet New People Near You | sex4date.com</title>
+  <meta name="description" content="Meet new people near you. Fast access, mobile friendly, simple sign up." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <link rel="canonical" href="https://sex4date.com/" />
+
+  <meta property="og:title" content="Meet New People Near You" />
+  <meta property="og:description" content="Fast access, mobile friendly, simple sign up." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sex4date.com/" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #111;
+    }
+
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      background: #fff;
+      border-radius: 18px;
+      padding: 28px 22px;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: #f0f3f8;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 30px;
+      line-height: 1.15;
+    }
+
+    p {
+      margin: 0 0 14px;
+      color: #444;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .features {
+      text-align: left;
+      margin: 18px 0 22px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .features li {
+      padding: 9px 0;
+      border-bottom: 1px solid #eee;
+      font-size: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 100%;
+      text-decoration: none;
+      padding: 15px 18px;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: 700;
+      background: #111;
+      color: #fff;
+    }
+
+    .countdown {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    .note {
+      margin-top: 14px;
+      font-size: 13px;
+      color: #666;
+    }
+
+    .seo {
+      margin-top: 22px;
+      text-align: left;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #4a4a4a;
+    }
+
+    .seo h2 {
+      font-size: 18px;
+      margin: 0 0 10px;
+      color: #111;
+    }
+
+    .seo p {
+      font-size: 14px;
+      margin: 0 0 10px;
+    }
+  </style>
+
+  <script>
+    const targetUrl = "https://tone.affomelody.com/click?pid=123827&offer_id=25&ref_id=ubt";
+    let seconds = 1.5;
+
+    function updateCountdown() {
+      const el = document.getElementById("countdown");
+      if (!el) return;
+
+      if (seconds <= 0) {
+        el.textContent = "Opening...";
+      } else {
+        el.textContent = "Opening in " + seconds.toFixed(1) + "s...";
+      }
+    }
+
+    function startRedirect() {
+      updateCountdown();
+
+      const startedAt = Date.now();
+      const interval = setInterval(() => {
+        const elapsed = (Date.now() - startedAt) / 1000;
+        seconds = Math.max(0, 1.5 - elapsed);
+        updateCountdown();
+
+        if (elapsed >= 1.5) {
+          clearInterval(interval);
+          window.location.href = targetUrl;
+        }
+      }, 100);
+    }
+
+    window.addEventListener("load", startRedirect);
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <main class="card">
+      <div class="badge">Quick Access</div>
+
+      <h1>Meet New People Near You</h1>
+
+      <p>
+        Fast access to local profiles and new connections near you.
+      </p>
+
+      <ul class="features">
+        <li>Mobile friendly</li>
+        <li>Fast loading page</li>
+        <li>Simple sign up</li>
+      </ul>
+
+      <a class="btn" href="https://tone.affomelody.com/click?pid=123827&offer_id=25&ref_id=ubt">Continue</a>
+
+      <div id="countdown" class="countdown">Opening in 1.5s...</div>
+      <div class="note">If nothing happens automatically, use the button above.</div>
+
+      <section class="seo">
+        <h2>Find local matches online</h2>
+        <p>
+          This page helps visitors quickly access local dating and social discovery options on mobile and desktop devices.
+        </p>
+        <p>
+          Users can continue directly using the button above and open the destination page in a fast and simple way.
+        </p>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
