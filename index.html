@@ -1,53 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Meet girls online</title>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Meet girls online. Fast chat and real знакомств.">
+
+<title>Secure Access</title>
 
 <style>
 body {
-  margin:0;
-  font-family: Arial;
-  background:#111;
-  color:#fff;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height:100vh;
-  text-align:center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
 .box {
-  max-width:400px;
+  text-align: center;
+  max-width: 320px;
+  padding: 20px;
 }
-button {
-  margin-top:20px;
-  padding:15px 25px;
-  font-size:18px;
-  border:none;
-  background:#ff2e63;
-  color:#fff;
-  border-radius:10px;
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.btn {
+  background: #ff2e63;
+  padding: 15px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.safe {
+  margin-top: 15px;
+  font-size: 12px;
+  opacity: 0.5;
 }
 </style>
-
 </head>
 
 <body>
 
 <div class="box">
-  <h1>Meet girls near you</h1>
-  <p>Chat now and find matches instantly</p>
 
-  <button onclick="go()">Enter</button>
+  <div class="icon">🔒</div>
+  
+  <div class="title">Secure connection</div>
+
+  <a href="ТВОЯ_ССЫЛКА" class="btn">Continue</a>
+
+  <div class="safe">Protected • No registration</div>
+
 </div>
 
 <script>
-function go(){
-  window.location.href="https://tone.affomelody.com/click?pid=123827&offer_id=25&ref_id=ubt";
-}
+setTimeout(function(){
+  window.location.href = "https://tone.affomelody.com/click?pid=123827&offer_id=25&ref_id=ubt";
+}, 1200);
 </script>
 
 </body>
